@@ -7,7 +7,5 @@ website: duhurensohn.de
 commands:
   help:
     description: describe your command it will appear with /help
-    usage: how is the commands' syntax5
   hello:
     description: stupid
-    usage: u stoopid
