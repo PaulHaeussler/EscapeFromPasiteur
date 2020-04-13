@@ -2,7 +2,7 @@ package de.pasiteur.EscapeFromPasiteur;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class EscapeFromPasiteur extends JavaPlugin {
+public class Main extends JavaPlugin {
 
     @Override
     public void onEnable(){
