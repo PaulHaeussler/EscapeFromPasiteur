@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EscapeFromPasiteur:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/EscapeFromPasiteur_jar</output-path>
+    <root id="archive" name="EscapeFromPasiteur.jar">
+      <element id="module-output" name="EscapeFromPasiteur" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/spigot-api-1.15.2-R0.1-20200410.011959-86.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
