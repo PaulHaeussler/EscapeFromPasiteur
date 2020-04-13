@@ -1,5 +1,6 @@
 package de.pasiteur.EscapeFromPasiteur;
 
+import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -23,9 +24,11 @@ public class Main extends JavaPlugin {
             if(sender instanceof Player) {
                 // player
                 Player player = (Player) sender;
-                player.chat("Hello World");
+                player.sendMessage(ChatColor.translateAlternateColorCodes('&', "&1H&2a&3v&6e &7F&2u&1n"));
+                return true;
             } else {
                 // console
+                sender.sendMessage("Hey console");
             }
         }
         return false;
