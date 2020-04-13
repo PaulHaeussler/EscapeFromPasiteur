@@ -1,8 +1,8 @@
-name: Main
+name: EscapeFromPasiteur
 version: the plugin's version
 author: the author's name
 main: de.pasiteur.EscapeFromPasiteur.Main
-api-version: 1.15.2
+api-version: 1.13
 website: duhurensohn.de
 commands:
   help:
