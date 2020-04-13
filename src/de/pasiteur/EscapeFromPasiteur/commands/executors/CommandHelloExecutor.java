@@ -1,5 +1,6 @@
-package de.pasiteur.EscapeFromPasiteur.commands;
+package de.pasiteur.EscapeFromPasiteur.commands.executors;
 
+import de.pasiteur.EscapeFromPasiteur.commands.CommandBase;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -7,7 +8,7 @@ import org.bukkit.entity.Player;
 /**
  * Command which prints unnecessary "Hello" message
  */
-public class CommandHello extends CommandBase {
+public class CommandHelloExecutor extends CommandBase {
     @Override
     public boolean onCommand(CommandSender sender, org.bukkit.command.Command command, String label, String[] args) {
         if(command.getName().equalsIgnoreCase("hello")) {
