@@ -9,6 +9,7 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable(){
         //Fired when the server enables the plugin
+
     }
 
     @Override
@@ -18,7 +19,7 @@ public class Main extends JavaPlugin {
 
     @Override
     public boolean onCommand(CommandSender sender, org.bukkit.command.Command command, String label, String[] args) {
-        if(label.equalsIgnoreCase("hello")) {
+        if(command.getName().equalsIgnoreCase("hello")) {
             if(sender instanceof Player) {
                 // player
                 Player player = (Player) sender;
